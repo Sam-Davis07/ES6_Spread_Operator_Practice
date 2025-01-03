@@ -14,6 +14,7 @@ function App() {
       console.log(preValue);
       return [...preValue, text];
     });
+    setText("");
   }
 
   return (
